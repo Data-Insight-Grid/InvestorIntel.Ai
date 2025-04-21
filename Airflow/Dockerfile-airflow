@@ -1,0 +1,29 @@
+FROM apache/airflow:2.10.5
+
+USER root
+
+# Add Docker group and give Airflow access to Docker socket
+RUN groupadd --gid 999 docker && usermod -aG docker airflow
+RUN pip install --no-cache-dir playwright
+RUN pip install --no-cache-dir sentence-transformers
+RUN pip install --no-cache-dir google-generativeai 
+
+# Copy the requirements file to the container root
+COPY requirements.txt /requirements.txt
+# Install packages from the copied file
+RUN pip install --no-cache-dir -r /opt/airflow/requirements.txt
+
+# Switch to airflow user before pip install
+USER airflow
+
+# Install required Python packages as airflow user
+RUN pip install --no-cache-dir selenium docker bs4 lxml
+
+# Switch back to root to create the downloads folder
+USER root
+RUN mkdir -p /usr/local/airflow/downloads && chown airflow:docker /usr/local/airflow/downloads
+
+
+
+USER airflow
+

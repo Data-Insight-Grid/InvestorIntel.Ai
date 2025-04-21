@@ -1,0 +1,29 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+myenv/
+venv/
+env/
+env2/
+myenv2/
+venv2/
+venv3/
+env1/
+
+# Ignore OS files
+.DS_Store
+
+# Ignore logs
+*.log
+
+# Ignore IDE folders
+.vscode/
+.idea/
+
+# Ignore test files
+test/
+
+node_modules/

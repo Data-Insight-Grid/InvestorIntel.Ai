@@ -1,0 +1,18 @@
+streamlit==1.34.0
+fastapi==0.110.0
+uvicorn==0.27.1
+python-multipart==0.0.7
+boto3==1.35.68
+google-generativeai==0.7.0
+pillow==10.2.0
+python-dotenv==1.0.1
+requests==2.31.0
+email-validator==2.1.0
+# Embedding and Vector Database Dependencies
+sentence-transformers==2.5.1
+pinecone-client==3.0.0
+# Additional dependencies that might be required
+torch==2.1.2
+transformers==4.38.1
+numpy==1.24.4
+plotly

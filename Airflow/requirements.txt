@@ -1,0 +1,12 @@
+apache-airflow
+requests
+playwright
+boto3 
+snowflake-connector-python
+pinecone
+google-cloud-aiplatform  
+langchain  
+sentence-transformers  
+python-dotenv 
+typing-extensions
+google-generativeai
