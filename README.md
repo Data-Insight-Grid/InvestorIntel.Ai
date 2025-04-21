@@ -142,14 +142,5 @@ This integrated workflow enables investors to perform thorough due diligence on 
 
 ---
 
-## **📌 Contributions**
-
-| **Member**   | **Contribution**                                                                                                                                         |
-|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Janvi** | **33%** – Competitor analysis, data scraping from websites, frontend and backend development, created Growjo pipeline |
-| **Ketki** | **33%** – Implemented the RAG Agent using Pinecone for Q&A bot, summary agent and web search agent, deployed Airflow cloud |
-| **Sahil** | **33%** – MCP integration, CI/CD pipeline, industry analysis agent, LangGraph implementation, Implement both Unit and Integration testing   |
----
-
 ## **📌 Attestation**
 **WE CERTIFY THAT WE HAVE NOT USED ANY OTHER STUDENTS' WORK IN OUR ASSIGNMENT AND COMPLY WITH THE POLICIES OUTLINED IN THE STUDENT HANDBOOK.**
